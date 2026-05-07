@@ -243,7 +243,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    token = os.environ.get("8524342556:AAHRB41juR7n_-6F6DRxVnOgG9S2DmlVrH8")
     if not token:
         raise ValueError("Переменная окружения TELEGRAM_BOT_TOKEN не задана!")
 
